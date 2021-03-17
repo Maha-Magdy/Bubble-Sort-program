@@ -6,7 +6,7 @@
 ## Built With
 
 - Ruby
-- Repl
+- REPL
 
 ## Live Demo
 
@@ -53,7 +53,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - [THE ODIN PROJECT](https://www.theodinproject.com/courses/ruby-programming/lessons/bubble-sort)
-- [Replit](https://replit.com/~)
+- [Repl.it](https://replit.com/~)
 
 
 ## 📝 License
