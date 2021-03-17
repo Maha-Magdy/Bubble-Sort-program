@@ -1,11 +1,11 @@
 def bubble_sort(array)
   is_sorted = false
-  until is_sorted do
-    j = 0 
+  until is_sorted
+    j = 0
     is_sorted = true
-    while j < array.length - 1 do
+    while j < array.length - 1
       if array[j] >= array [j + 1]
-        array [j], array[j+1] = array[j+1], array[j] 
+        array [j], array[j + 1] = array[j + 1], array[j]
         is_sorted = false
       end
       j += 1
@@ -13,7 +13,7 @@ def bubble_sort(array)
   end
   array
 end
-  
-list = [4,3,78,2,0,2
-  
+
+list = [4, 3, 78, 2, 0, 2]
+
 bubble_sort(list)
