@@ -5,8 +5,7 @@ def bubble_sort(array)
     count = 0
     is_sorted = true
     while j < array.length - 1 - count
-      temp = array[j] - array[j + 1]
-      if temp.positive?
+      if array[j] > array[j + 1]
         array[j], array[j + 1] = array[j + 1], array[j]
         is_sorted = false
         p array
